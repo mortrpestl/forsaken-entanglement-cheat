@@ -11,7 +11,7 @@ However, this program if improved is not limited to the game. It can be used to 
 ## Future Goals:
 - test speed in 24 FPS videos
 - integrate to a real-time live capture for use in actual Roblox servers (with the disclaimer in mind)
-- integrate to a more general use case (pop-up detection)
+- generalize to a broader use case (pop-up detection)
 
 ## Recommendations:
 - increase and uniformize data points in the dataset (increase to at least 200), and also use Windows dialog boxes to further generalize
@@ -30,13 +30,14 @@ This is the current output of the model with 30 images. Currently, it is the bou
 <p align="center">
   <img src="https://github.com/mortrpestl/forsaken-entanglement-cheat/blob/main/docu/2.png?raw=true" alt="2" width="60%" />
 </p>
-This is the desired behavior, to be achieved with an increase in data points. Feel free to send recommendations in where to receive labeled images of Windows dialog boxes (or even Forsaken 1x1x1x1 Entanglement gameplay in the perspective of the attacked player!) through my Github profile.
+This is the desired behavior, which could be achieved with an increase in data points. Feel free to send recommendations in where to receive labeled images of Windows dialog boxes (or even Forsaken 1x1x1x1 Entanglement gameplay in the perspective of the attacked player!) through my Github profile.
 
 ## Software and Paradigms Used:
-- Python  
+- Python
 - [YOLO v1 (You Only Look Once)](https://arxiv.org/abs/1506.02640)  
 - [TQDM](https://github.com/tqdm/tqdm)  
 - [PyTorch](https://pytorch.org/)
 - [ModifiedOpenLabeling, derived from OpenLabeling](https://github.com/ivangrov/ModifiedOpenLabelling)
+- [Aladdin Persson](https://www.youtube.com/watch?v=t-phGBfPEZ4&list=PLhhyoLH6Ijfw0TpCTVTNk42NN08H6UvNq)'s videos on Object Detection
 
 All rights reserved by @mortrpestl.
