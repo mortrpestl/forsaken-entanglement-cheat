@@ -136,7 +136,7 @@ def main():
 
         print(f"Train mAP: {mean_avg_prec}")
 
-        if mean_avg_prec > 0.6:
+        if mean_avg_prec > 0.9:
             checkpoint = {
                 "state_dict": model.state_dict(),
                 "optimizer": optimizer.state_dict()
